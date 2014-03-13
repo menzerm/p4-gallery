@@ -1,5 +1,7 @@
 /* Your Website Styles */
-
+body {
+	font-family: 'Nunito', sans-serif;
+}
 
 /* Show Grid */
 .showgrid {
