@@ -5,20 +5,27 @@ a:visited {
 }
 
 body {
-	color: #6abd45;
 	background: url('../img/bg.png');
+  color: #b2b2b2;
 	font-family: 'Nunito', sans-serif;
-	font-size: 1.6em;
-  	line-height: 1.5;
 }
 
 footer {
-	font-size: .5em;
-	text-align: center;
+  color: #6abd45;
+  font-size: .5em;
+  text-align: center;
+}
+
+h1 {
+  color: #6abd45;
+}
+
+hr {
+  color: #b2b2b2;
 }
 
 nav {
-	font-size: .75em;
+	font-size: 1.05em;
 	text-transform: uppercase;
 }
 
