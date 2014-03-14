@@ -15,6 +15,15 @@ footer {
 	text-align: center;
 }
 
+i {
+	
+}
+
+nav {
+	font-size: .75em;
+	text-transform: uppercase;
+}
+
 nav a:link,
 nav a:visited {
 	color: #b2b2b2;
