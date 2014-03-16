@@ -87,7 +87,7 @@ ul {
 
 /* Styles the thumbnail */
 
-a.lightbox img, img:hover {
+a.lightbox img {
   height: 150px;
 }
 
