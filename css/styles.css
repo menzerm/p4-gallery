@@ -26,7 +26,7 @@ hr {
 
 nav {
 	font-size: 1.05em;
-  margin-top: 2em;
+	margin-top: 2em;
 	text-transform: uppercase;
 }
 
@@ -207,4 +207,33 @@ a.lightbox-close:after {
 
 .lightbox-target:target a.lightbox-close {
   top: 0px;
+}
+
+/* breakpoints: 
+  * mobile portrait : 320px
+  * mobile landscape : 480px
+  * tablet portrait: 768px
+  * tablet landscape: 1024px
+  * desktop standard: 1440px
+  * large desktop: 1920px
+*/
+
+/*tablet landscape*/
+@media screen and (max-width: 1024px) {
+
+}
+
+/*tablet portrait*/
+@media screen and (max-width: 768px) {
+
+}
+
+/*mobile landscape*/
+@media screen and (max-width: 480px) {
+
+}
+
+/*mobile portrait */
+@media screen and (max-width: 320px) {
+
 }
