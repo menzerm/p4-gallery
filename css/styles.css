@@ -11,6 +11,7 @@ body {
 }
 
 footer {
+  clear: both;
   color: #6abd45;
   font-size: .75em;
   text-align: center;
@@ -24,6 +25,10 @@ hr {
   color: #b2b2b2;
 }
 
+.mini {
+  display: none;
+}
+
 nav {
 	font-size: 1.05em;
 	margin-top: 2em;
@@ -33,7 +38,7 @@ nav {
 nav a:link,
 nav a:visited {
 	color: #b2b2b2;
-	padding: 10px 10px 10px 25px;
+	padding: 10px 10px 10px 10px;
 	text-decoration: none;
 }
 
@@ -44,7 +49,7 @@ nav a:hover {
 nav li {
 	float: right;
 	list-style: none;
-	margin: 2px -13px 0 33px
+	margin: 0 2.5% 0 0;
 }
 
 ul {
@@ -219,21 +224,69 @@ a.lightbox-close:after {
 */
 
 /*tablet landscape*/
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 900px) {
+  .mini {
+    display: none;
+  }
+  .logo {
+    display: none;
+  }
+  nav li {
+   margin: 2% 0 0 2%
+  }
 
 }
 
 /*tablet portrait*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 697px) {
+  .mini {
+    display: inline;
+    font-size: 2em;
+  }
+  .full {
+    display: none;
+  }
+  .logo {
+    display: none;
+  }
 
 }
 
 /*mobile landscape*/
 @media screen and (max-width: 480px) {
+  .mini {
+    display: inline;
+  }
+  .full {
+    display: none;
+  }
+  nav li {
+    margin: 2% 0 0 2%;
+  }
+
+  .logo {
+    display: none;
+  }
 
 }
 
 /*mobile portrait */
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 340px) {
+  .mini {
+    display: inline;
+  }
+  .full {
+    display: none;
+  }
+  nav li {
+    margin: .5% 0 0 .5%;
+  }
+  .logo {
+    display: none;
+  }
+  nav a:link,
+  nav a:visited {
+    padding: 5px 5px 5px 5px;
+  }
 
 }
